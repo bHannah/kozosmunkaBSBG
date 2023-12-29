@@ -30,6 +30,7 @@ nav{
 }
 
 aside{
+    text-align: justify;
     grid-area: as;
     width: 40%;
     float: right;
