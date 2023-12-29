@@ -103,6 +103,13 @@ li a {
 }
 
 #vivas{
+    main{
+        grid-template-areas: 
+        "h h h h"
+        "n n n n"
+        "ar ar ar as"
+        "f f f f";
+    }
     
 
 }
