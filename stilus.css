@@ -102,6 +102,26 @@ li a {
     padding-right: 70px;
 }
 
+table {
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(58, 77, 12);
+}
+
+th{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(58, 77, 12)
+}
+
+td{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(58, 77, 12)
+}
+
 #vivas{
     
 
