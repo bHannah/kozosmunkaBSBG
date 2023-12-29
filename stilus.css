@@ -72,3 +72,7 @@ nav li {
 nav li:hover {
     background-color: rgb(97, 128, 214);
   }
+
+img {
+    width: 100%;
+}
