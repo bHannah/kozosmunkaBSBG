@@ -81,3 +81,9 @@ article {
     font-size: large;
     margin: 10px;
 }
+
+li a {
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
