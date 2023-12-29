@@ -32,10 +32,6 @@ nav{
 aside{
     text-align: justify;
     grid-area: as;
-    width: 40%;
-    float: right;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     border: 1px solid rgb(58, 77, 128);
     background-color: #a2c1e4;
 }
@@ -126,14 +122,12 @@ td{
     margin-left: auto;
     margin-right: auto;
 }
-#vivas{
-    main{
+#vivas main{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
         grid-template-areas: 
-        "h h h h"
-        "n n n n"
-        "ar ar ar as"
-        "f f f f";
-    }
-    
-
+        "h h"
+        "n n"
+        "ar as"
+        "f f";
 }
