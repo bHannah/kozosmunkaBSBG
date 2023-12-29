@@ -9,6 +9,7 @@ body{
 header{
     border: 1px solid rgb(58, 77, 128);
     text-align: center;
+    background-color: #5382b4;
 }
 
 nav{
@@ -45,7 +46,6 @@ h1 {
 nav ul {
     list-style-type: none;
     padding: 0;
-    padding-bottom: 80px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
