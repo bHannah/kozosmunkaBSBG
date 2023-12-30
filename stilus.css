@@ -1,6 +1,6 @@
 body{
     color:black;
-    width: 1000px;
+    width: 90%;
     margin: auto;
     padding: auto;
     background-color: white;
@@ -17,6 +17,7 @@ main{
 }
 
 header{
+    width: 100%;
     grid-area: h;
     border: 1px solid rgb(58, 77, 128);
     text-align: center;
@@ -46,7 +47,6 @@ footer{
     grid-area: f;
     border: 1px solid rgb(58, 77, 128);
     width: 100%;
-    clear: both;
     text-align: center;
     background-color: #a2c1e4;
 }
@@ -59,7 +59,6 @@ h1 {
 nav ul {
     list-style-type: none;
     padding: 0;
-    ;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
@@ -69,6 +68,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    display: inline-block;
   }
   
 nav li {
@@ -83,7 +83,7 @@ nav li:hover {
   }
 
 img {
-    width: 98%;
+    width: 90%;
     margin: 10px;
     border: 1px solid rgb(58, 77, 128);
 }
@@ -130,4 +130,41 @@ td{
         "n n"
         "ar as"
         "f f";
+}
+@media only screen and (max-width: 800px) {
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "h"
+        "n"
+        "a"
+        "f";
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+}
+@media only screen and (max-width: 600px) {
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "h"
+        "n"
+        "as"
+        "ar"
+        "f";
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
 }
